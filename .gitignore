@@ -1,2 +1,32 @@
-Zipfiles/
-.idea/
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+logs/
+*.log
+npm-debug.log*
+
+# Ignore environment variable files
+.env
+
+# Ignore operating system files
+.DS_Store
+
+# Ignore build directories
+dist/
+build/
+
+# Ignore dependency directories
+jspm_packages/
+typings/
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+
+# Ignore package-lock.json
+package-lock.json
+
+# Ignore any zip files (adjust as needed)
+*.zip
